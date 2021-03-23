@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+#navbar{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0000FF;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+ul{
+  list-style-type:none;
+}
+#navbar .nav-link{
+  padding: 6px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  color:	#FFFFFF;
+  display: block;
+}
+#navbar .nav-link:hover{
+  color:#ff9900;
+}
+#page_name{
+  font-size: 50px;
+  color: #FFFFFF;
+  padding: 6px 8px;
+}
+#main-doc{
+  font-family: Oswald;
+  margin-left: 250px;
+  padding: 0px 10px;
+  font-size: x-large;
+}
+#con_tag{
+  margin: 0px 0px;
+}
+#tag{
+  font-size: 70px;
+  padding: 10px;
+  margin: 0px 0px;
+}
+#yoru-main-img{
+  max-width: 100%;
+  height: auto;
+}
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+
+.ability_img{
+  max-width: 10%;
+  height: auto;
+  background-color: orange;
+  float: left;
+  margin-right: 10px;
+  padding: auto;
+}
+ #Abilities div {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar .nav-link {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
